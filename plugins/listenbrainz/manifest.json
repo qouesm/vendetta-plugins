@@ -1,0 +1,14 @@
+{
+    "name": "ListenBrainz",
+    "description": "Provides rich presence for a ListenBrainz user's now playing song",
+    "authors": [
+        {
+            "name": "qouesm",
+            "id": "130388483494641664"
+        }
+    ],
+    "main": "src/index.ts",
+    "vendetta": {
+        "icon": "ic_stage_music"
+    }
+}
