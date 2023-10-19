@@ -72,6 +72,7 @@ for (let plug of await readdir("./plugins")) {
             format: "iife",
             compact: true,
             exports: "named",
+            inlineDynamicImports: true,
         });
         await bundle.close();
     
